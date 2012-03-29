@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E05C432515246476003F5853 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E05C432415246476003F5853 /* UIKit.framework */; };
+		E05C432715246476003F5853 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E05C432615246476003F5853 /* Foundation.framework */; };
+		E05C432915246476003F5853 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E05C432815246476003F5853 /* CoreGraphics.framework */; };
+		E05C432F15246476003F5853 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E05C432D15246476003F5853 /* InfoPlist.strings */; };
+		E05C433115246476003F5853 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E05C433015246476003F5853 /* main.m */; };
+		E05C433515246476003F5853 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E05C433415246476003F5853 /* AppDelegate.m */; };
+		E05C433815246476003F5853 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E05C433715246476003F5853 /* ViewController.m */; };
+		E05C433B15246476003F5853 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E05C433915246476003F5853 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E05C432015246476003F5853 /* LeaksDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeaksDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E05C432415246476003F5853 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E05C432615246476003F5853 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E05C432815246476003F5853 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E05C432C15246476003F5853 /* LeaksDetection-Info.plist */ = {isa = PBXFileReference; path = "LeaksDetection-Info.plist"; sourceTree = "<group>"; };
+		E05C432E15246476003F5853 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E05C433015246476003F5853 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E05C433215246476003F5853 /* LeaksDetection-Prefix.pch */ = {isa = PBXFileReference; path = "LeaksDetection-Prefix.pch"; sourceTree = "<group>"; };
+		E05C433315246476003F5853 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E05C433415246476003F5853 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E05C433615246476003F5853 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		E05C433715246476003F5853 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E05C433A15246476003F5853 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E05C431D15246476003F5853 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E05C432515246476003F5853 /* UIKit.framework in Frameworks */,
+				E05C432715246476003F5853 /* Foundation.framework in Frameworks */,
+				E05C432915246476003F5853 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E05C431515246476003F5853 = {
+			isa = PBXGroup;
+			children = (
+				E05C432A15246476003F5853 /* LeaksDetection */,
+				E05C432315246476003F5853 /* Frameworks */,
+				E05C432115246476003F5853 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E05C432115246476003F5853 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E05C432015246476003F5853 /* LeaksDetection.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E05C432315246476003F5853 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E05C432415246476003F5853 /* UIKit.framework */,
+				E05C432615246476003F5853 /* Foundation.framework */,
+				E05C432815246476003F5853 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E05C432A15246476003F5853 /* LeaksDetection */ = {
+			isa = PBXGroup;
+			children = (
+				E05C433315246476003F5853 /* AppDelegate.h */,
+				E05C433415246476003F5853 /* AppDelegate.m */,
+				E05C433615246476003F5853 /* ViewController.h */,
+				E05C433715246476003F5853 /* ViewController.m */,
+				E05C433915246476003F5853 /* ViewController.xib */,
+				E05C432B15246476003F5853 /* Supporting Files */,
+			);
+			path = LeaksDetection;
+			sourceTree = "<group>";
+		};
+		E05C432B15246476003F5853 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E05C432C15246476003F5853 /* LeaksDetection-Info.plist */,
+				E05C432D15246476003F5853 /* InfoPlist.strings */,
+				E05C433015246476003F5853 /* main.m */,
+				E05C433215246476003F5853 /* LeaksDetection-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E05C431F15246476003F5853 /* LeaksDetection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E05C433E15246476003F5853 /* Build configuration list for PBXNativeTarget "LeaksDetection" */;
+			buildPhases = (
+				E05C431C15246476003F5853 /* Sources */,
+				E05C431D15246476003F5853 /* Frameworks */,
+				E05C431E15246476003F5853 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeaksDetection;
+			productName = LeaksDetection;
+			productReference = E05C432015246476003F5853 /* LeaksDetection.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E05C431715246476003F5853 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = E05C431A15246476003F5853 /* Build configuration list for PBXProject "LeaksDetection" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E05C431515246476003F5853;
+			productRefGroup = E05C432115246476003F5853 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E05C431F15246476003F5853 /* LeaksDetection */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E05C431E15246476003F5853 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E05C432F15246476003F5853 /* InfoPlist.strings in Resources */,
+				E05C433B15246476003F5853 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E05C431C15246476003F5853 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E05C433115246476003F5853 /* main.m in Sources */,
+				E05C433515246476003F5853 /* AppDelegate.m in Sources */,
+				E05C433815246476003F5853 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E05C432D15246476003F5853 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E05C432E15246476003F5853 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E05C433915246476003F5853 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E05C433A15246476003F5853 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E05C433C15246476003F5853 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E05C433D15246476003F5853 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E05C433F15246476003F5853 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LeaksDetection/LeaksDetection-Prefix.pch";
+				INFOPLIST_FILE = "LeaksDetection/LeaksDetection-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E05C434015246476003F5853 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LeaksDetection/LeaksDetection-Prefix.pch";
+				INFOPLIST_FILE = "LeaksDetection/LeaksDetection-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E05C431A15246476003F5853 /* Build configuration list for PBXProject "LeaksDetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E05C433C15246476003F5853 /* Debug */,
+				E05C433D15246476003F5853 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E05C433E15246476003F5853 /* Build configuration list for PBXNativeTarget "LeaksDetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E05C433F15246476003F5853 /* Debug */,
+				E05C434015246476003F5853 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E05C431715246476003F5853 /* Project object */;
+}
