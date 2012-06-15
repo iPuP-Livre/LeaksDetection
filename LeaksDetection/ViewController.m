@@ -3,7 +3,7 @@
 //  LeaksDetection
 //
 //  Created by Marian PAUL on 29/03/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2012 IPuP SARL. All rights reserved.
 //
 
 #import "ViewController.h"
@@ -17,7 +17,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(20, 20, 80, 30)];
+    [self.view addSubview:label];
+    
+    NSNumber *number = [[NSNumber alloc] initWithFloat:45.67f];
+    
+    label.text = [NSString stringWithFormat:@"%f", [number floatValue]];
 }
 
 - (void)viewDidUnload

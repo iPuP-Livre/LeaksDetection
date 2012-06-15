@@ -15,6 +15,7 @@
 		E05C433515246476003F5853 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E05C433415246476003F5853 /* AppDelegate.m */; };
 		E05C433815246476003F5853 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E05C433715246476003F5853 /* ViewController.m */; };
 		E05C433B15246476003F5853 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E05C433915246476003F5853 /* ViewController.xib */; };
+		E05C434315247C76003F5853 /* MyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E05C434215247C75003F5853 /* MyObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,17 @@
 		E05C432415246476003F5853 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E05C432615246476003F5853 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E05C432815246476003F5853 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E05C432C15246476003F5853 /* LeaksDetection-Info.plist */ = {isa = PBXFileReference; path = "LeaksDetection-Info.plist"; sourceTree = "<group>"; };
+		E05C432C15246476003F5853 /* LeaksDetection-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LeaksDetection-Info.plist"; sourceTree = "<group>"; };
 		E05C432E15246476003F5853 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E05C433015246476003F5853 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E05C433215246476003F5853 /* LeaksDetection-Prefix.pch */ = {isa = PBXFileReference; path = "LeaksDetection-Prefix.pch"; sourceTree = "<group>"; };
-		E05C433315246476003F5853 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E05C433215246476003F5853 /* LeaksDetection-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LeaksDetection-Prefix.pch"; sourceTree = "<group>"; };
+		E05C433315246476003F5853 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E05C433415246476003F5853 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E05C433615246476003F5853 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		E05C433615246476003F5853 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E05C433715246476003F5853 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E05C433A15246476003F5853 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		E05C434115247C75003F5853 /* MyObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyObject.h; sourceTree = "<group>"; };
+		E05C434215247C75003F5853 /* MyObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 				E05C433715246476003F5853 /* ViewController.m */,
 				E05C433915246476003F5853 /* ViewController.xib */,
 				E05C432B15246476003F5853 /* Supporting Files */,
+				E05C434115247C75003F5853 /* MyObject.h */,
+				E05C434215247C75003F5853 /* MyObject.m */,
 			);
 			path = LeaksDetection;
 			sourceTree = "<group>";
@@ -163,6 +168,7 @@
 				E05C433115246476003F5853 /* main.m in Sources */,
 				E05C433515246476003F5853 /* AppDelegate.m in Sources */,
 				E05C433815246476003F5853 /* ViewController.m in Sources */,
+				E05C434315247C76003F5853 /* MyObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
